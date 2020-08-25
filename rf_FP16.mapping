@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="sequential_48/conv2d_46/Conv2D" out_port_id="0"/>
+		<IR id="2" name="sequential_48/conv2d_46/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential_48/conv2d_47/BiasAdd" out_port_id="0"/>
+		<IR id="9" name="sequential_48/conv2d_47/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential_48/conv2d_48/BiasAdd" out_port_id="0"/>
+		<IR id="14" name="sequential_48/conv2d_48/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential_48/conv2d_48/Conv2D" out_port_id="0"/>
+		<IR id="12" name="sequential_48/conv2d_48/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential_48/conv2d_47/Relu" out_port_id="0"/>
+		<IR id="10" name="sequential_48/conv2d_47/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="sequential_48/flatten_22/Const" out_port_id="0"/>
+		<IR id="18" name="sequential_48/flatten_22/Reshape/Cast_11279_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="Identity" out_port_id="0"/>
+		<IR id="28" name="sequential_48/dense_45/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential_48/dense_45/BiasAdd" out_port_id="0"/>
+		<IR id="28" name="sequential_48/dense_45/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential_48/dense_44/BiasAdd" out_port_id="0"/>
+		<IR id="23" name="sequential_48/dense_44/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential_48/dropout_61/Identity" out_port_id="0"/>
+		<IR id="17" name="sequential_48/conv2d_48/Relu/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential_48/conv2d_48/Relu" out_port_id="0"/>
+		<IR id="17" name="sequential_48/conv2d_48/Relu/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential_48/conv2d_47/Conv2D" out_port_id="0"/>
+		<IR id="7" name="sequential_48/conv2d_47/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="x" out_port_id="0"/>
+		<IR id="0" name="x" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="sequential_48/conv2d_46/BiasAdd" out_port_id="0"/>
+		<IR id="4" name="sequential_48/conv2d_46/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential_48/dense_44/MatMul/ReadVariableOp" out_port_id="0"/>
+		<IR id="20" name="sequential_48/dense_44/MatMul/1_port_transpose1036_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="sequential_48/conv2d_46/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="1" name="sequential_48/conv2d_46/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="sequential_48/flatten_22/Reshape" out_port_id="0"/>
+		<IR id="19" name="sequential_48/flatten_22/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential_48/dense_45/MatMul/ReadVariableOp" out_port_id="0"/>
+		<IR id="25" name="sequential_48/dense_45/MatMul/1_port_transpose1032_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="sequential_48/conv2d_46/Relu" out_port_id="0"/>
+		<IR id="5" name="sequential_48/conv2d_46/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="sequential_48/dense_45/MatMul" out_port_id="0"/>
+		<IR id="26" name="sequential_48/dense_45/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential_48/dense_44/MatMul" out_port_id="0"/>
+		<IR id="21" name="sequential_48/dense_44/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential_48/conv2d_47/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="6" name="sequential_48/conv2d_47/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="sequential_48/conv2d_48/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="11" name="sequential_48/conv2d_48/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="sequential_48/dropout_62/Identity" out_port_id="0"/>
+		<IR id="24" name="sequential_48/dense_44/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="sequential_48/dense_44/Relu" out_port_id="0"/>
+		<IR id="24" name="sequential_48/dense_44/Relu" out_port_id="1"/>
+	</map>
+</mapping>
